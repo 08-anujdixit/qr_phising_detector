@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "QR Phishing Detector",
+    "slug": "quishing-app",
+    "version": "1.0.0",
+    "scheme": "quishingapp",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "QR Phishing Detector uses the camera to scan QR codes."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "QR Phishing Detector reads a QR code from a photo you choose."
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
